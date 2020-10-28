@@ -15,6 +15,11 @@ description: Thoughts on Azure and the Modern Workplace
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/cloud.png
 
+# Twitter Card details
+twitter:
+  username: Irish_Techie
+  card: summary
+
 # AddThis Details
 addthis: true
 addthis_key: 'ra-5f7a39ce813be522'
