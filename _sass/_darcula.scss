@@ -10,9 +10,9 @@ code {
     color: #d8d8d8;
 }
 
-.highlighter-rouge { 
-    background-color: #FAFAFA; 
-    color: #FF554A; 
+.highlighter-rouge {
+    background-color: #FAFAFA;
+    color: #FF554A;
     font-size: 16px;
 }
 
@@ -93,3 +93,41 @@ code {
 .highlight .vi { color: #8be9fd; font-style: italic } /* Name.Variable.Instance */
 .highlight .vm { color: #8be9fd; font-style: italic } /* Name.Variable.Magic */
 .highlight .il { color: #bd93f9 } /* Literal.Number.Integer.Long */
+
+.linked-heading {
+    position: relative;
+
+    .heading-anchor-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 1em;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        transform: translateX(-100%);
+
+        &:hover {
+            .heading-anchor {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+
+    &:hover {
+        .heading-anchor {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    .heading-anchor {
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        margin-left: 4px;
+        transition: visibility 0.2s ease, opacity 0.2s ease;
+    }
+}

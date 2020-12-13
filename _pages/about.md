@@ -33,20 +33,22 @@ I currently hold the following certifications:
 * Cisco CCNA (Routing and Switching)
 * Microsoft MCSA: Office 365
 * Microsoft Certified: Azure Administrator Associate
+* Microsoft Certified: Azure Security Engineer Associate
 
 You can see my Acclaim badges below. Feel free to click on them to find out more about the skills measured in each.
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac77f710-8821-46d1-9aa5-b3fdf0f1894a" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5daa639d-c1a1-430b-aa92-94eef5888296" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d61f1563-4d6e-4056-8e64-4871e305f856" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c070854b-3976-483c-957a-f463d666b98c" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 
 ### In Progress
 
-As I write this, in October 2020, I am preparing for the following qualifications. The plan is to earn both before the end of the year.
+As I udpate this, in December 2020, I have just achieved my goal of passing the AZ-104 and AZ-500 by the end of the year. I am now taking a short break from studying to spend time with the family and possibly fitting in some gaming time.
 
-* Microsoft Certified: Azure Security Engineer Associate - [Details](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer){:target="_blank"}
+In January, I intend to start into the [Microsoft Certified: Azure Solutions Architect Expert](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect){:target="_blank"} track.
 
-I'll share more about what I used to prepare for these in a blog post later.
+I'll be sharing more about this track in due course.
 
 ## Thank you
 
