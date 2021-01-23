@@ -44,11 +44,9 @@ You can see my Acclaim badges below. Feel free to click on them to find out more
 
 ### In Progress
 
-As I udpate this, in December 2020, I have just achieved my goal of passing the AZ-104 and AZ-500 by the end of the year. I am now taking a short break from studying to spend time with the family and possibly fitting in some gaming time.
+As I udpate this, in January 2021, I have taken a slight detour from my AZ-303 studies to work on the AZ-400 "Designing and Implementing Microsoft DevOps Solutions" exam.
 
-In January, I intend to start into the [Microsoft Certified: Azure Solutions Architect Expert](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect){:target="_blank"} track.
-
-I'll be sharing more about this track in due course.
+If you want to follow my journey, you can connect with me on Twitter and LinkedIn.
 
 ## Thank you
 
