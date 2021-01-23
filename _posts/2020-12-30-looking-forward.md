@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Looking forward...
-categories: ["2020", "2021", Microsoft 365, Azure, Security, CyberSecurity]
+categories: ["2020", "2021", Microsoft 365, Azure, Security, Cyber Security]
 excerpt: "Originally, I wasn't going to write a 'Year In Review' article. Mainly because I had only started blogging towards the end of 2020 and felt that, with COVID and permanent 'work from home', there wasn't much to write about. In the end, I decided to combine a quick look back at 2020 with a look ahead to 2021 and beyond."
 ---
 
