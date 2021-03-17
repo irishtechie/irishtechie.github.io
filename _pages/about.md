@@ -20,7 +20,7 @@ I've been talking about starting a blog for years but, as my wife will attest, I
 
 I believe that we, as human beings, are stronger when we work together. Community is important. I look forward to contributing to the IT Community by sharing these insights.
 
-I'll be writing about what I learn as I work with Azure and M365. You can expect blogs on different Azure and M365 services as well as articles that follow my journey from self-confessed "portal clicker" to being comfortable with automation and Infrastructure as Code (IaC).
+I'll be writing about what I learn as I work with Azure and M365. You can expect blogs on different Azure and M365 services as well as articles that explore the various Infrastructure as Code (IaC) options available to us when deploying resources to Azure.
 
 ## Certificates
 
@@ -30,13 +30,15 @@ There is often a lot of debate around the benefits of professional certification
 
 I currently hold the following certifications:
 
+* Microsoft Certified: DevOps Engineer Expert
+* Microsoft Certified: Azure Security Engineer Associate
+* Microsoft Certified: Azure Administrator Associate
 * Cisco CCNA (Routing and Switching)
 * Microsoft MCSA: Office 365
-* Microsoft Certified: Azure Administrator Associate
-* Microsoft Certified: Azure Security Engineer Associate
 
 You can see my Acclaim badges below. Feel free to click on them to find out more about the skills measured in each.
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eda8ee50-7076-4f0b-9c5f-68efbcf85612" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac77f710-8821-46d1-9aa5-b3fdf0f1894a" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5daa639d-c1a1-430b-aa92-94eef5888296" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d61f1563-4d6e-4056-8e64-4871e305f856" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
@@ -44,7 +46,7 @@ You can see my Acclaim badges below. Feel free to click on them to find out more
 
 ### In Progress
 
-As I udpate this, in January 2021, I have taken a slight detour from my AZ-303 studies to work on the AZ-400 "Designing and Implementing Microsoft DevOps Solutions" exam.
+Now that I have passed the AZ-400 exam and have earned the DevOps Engineer Expert certification, I am now shifting my focus back to the [Azure Solutions Architect](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/){:target="_blank"} certification. I'll be starting out with the AZ-303 exam, [Microsoft Azure Architect Technologies](https://docs.microsoft.com/en-us/learn/certifications/exams/az-303){:target="_blank"}.
 
 If you want to follow my journey, you can connect with me on Twitter and LinkedIn.
 

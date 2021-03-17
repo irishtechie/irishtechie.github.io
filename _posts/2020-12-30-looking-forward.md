@@ -5,6 +5,12 @@ categories: ["2020", "2021", Microsoft 365, Azure, Security, Cyber Security]
 excerpt: "Originally, I wasn't going to write a 'Year In Review' article. Mainly because I had only started blogging towards the end of 2020 and felt that, with COVID and permanent 'work from home', there wasn't much to write about. In the end, I decided to combine a quick look back at 2020 with a look ahead to 2021 and beyond."
 ---
 
+### Updated - March 2021
+
+If you follow me on Twitter or LinkedIn, you will know that I deviated slightly from the list below to work towards on the DevOps Engineer Expert qualification. I've now shifted my focus back to the AZ-303. I intend this article to be dynamic and for it to evolve as I progress through 2021. I have also shortened the list below so that it doesn't feel overwhelming when I come back to review my progress.
+
+<div align="center">====</div>
+
 Originally, I wasn't going to write a "Year In Review" article. Mainly because I had only started blogging towards the end of 2020 and felt that, with COVID and permanent "work from home", there wasn't much to write about. In the end, I decided to combine a quick look back at 2020 with a look ahead to 2021 and beyond.
 
 ### 2020... What a Year!
@@ -33,28 +39,23 @@ Over the last few weeks I have given a lot of thought to the above and also to w
 
 The exams and courses that I came up with are as follows:
 
+* ~~Microsoft Certified: DevOps Engineer Expert:~~
+  * ~~AZ-400: Designing and Implementing Microsoft DevOps Solutions~~
 * Microsoft Certified: Azure Solutions Architect Expert:
   * AZ-303: Microsoft Azure Architect Technologies
   * AZ-304: Microsoft Azure Architect Design
-* Microsoft 365 Certified: Enterprise Administrator Expert:
-  * MS-500: Microsoft 365 Certified: Security Administrator Associate
-  * MS-100: Microsoft 365 Identity and Services
-  * MS-101: Microsoft 365 Mobility and Security
-* CompTIA Security+
-* TCM Security Academy: Practical Ethical Hacking Course (Find out more [here](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course){:target="_blank"}.)
-* Offensive Security: OSCP (Offensive Security Certified Professional)
+* MS-500: Microsoft 365 Certified: Security Administrator Associate
 * Cloud Security Alliance: CCSK (Certificate of Cloud Security Knowledge)
-* (ISC)² SSCP (Systems Security Certified Practitioner)
 * (ISC)² CCSP (Certified Cloud Security Professional)
+* TCM Security Academy: Practical Ethical Hacking Course (Find out more [here](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course){:target="_blank"}.)
 
-The above should validate my Azure and Microsoft 365 skills as well as allowing me to up my security game. I've made sure to add in some offensive security learning, as I believe it is important to understand the security problem from both defensive and offensive perspectives. The only addition I would make to the above in terms of certifications, would be to potentially add a Linux qualification. Perhaps the CompTIA Linux+ would help improve my Linux system administration skills.
+The above should validate my Azure skills as well as allowing me to up my security game. I've made sure to add in some offensive security learning, as I believe it is important to understand the security problem from both defensive and offensive perspectives. The only addition I would make to the above in terms of certifications, would be to potentially add a Linux qualification. Perhaps the CompTIA Linux+ would help improve my Linux system administration skills.
 
 Aside from the above, there are a few things that I would like to improve upon in 2021 and beyond. These are supplemental learnings that will support the certification journey. These are as follows:
 
-* Level up my automation (DevOps, DevSecOps) skills with ARM Templates and Terraform.
-* Improve my KQL (Kusto Query Language) knowledge. A solid understanding of KQL will really underpin my work with Azure Sentinel and Azure Log Analytics.
-* Get to grips with Azure Kubernetes Service (AKS).
-* Validate my Windows Server Hardening skills. I'll be looking to pick up Orin Thomas' [“Windows Server 2019 Inside Out”](https://www.amazon.co.uk/Windows-Server-2019-Inside-Out/dp/0135492270){:target="_blank"} book and/or dig into the Microsoft Learn paths to look for learning paths that cover the same information.
+* Continue to improve my automation and scripting skills with Azure Bicep.
+* Improve my KQL (Kusto Query Language) knowledge. A solid understanding of KQL will really underpin any work with Azure Sentinel and Azure Log Analytics.
+* Get to grips with Azure Kubernetes Service (AKS) and Kubernetes in general. Who knows, I may go for the CKA or CKS at some point.
 * Complete Microsoft Ninja training in [Azure Security Centre](https://techcommunity.microsoft.com/t5/azure-security-center/become-an-azure-security-center-ninja/ba-p/1608761){:target="_blank"}, [Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/become-an-azure-sentinel-ninja-the-complete-level-400-training/ba-p/1246310){:target="_blank"}, and [Microsoft Cloud App Security](https://techcommunity.microsoft.com/t5/microsoft-security-and/the-microsoft-cloud-app-security-mcas-ninja-training-is-here/ba-p/1877343){:target="_blank"}.
 
 I'll be the first to admit that the above is a lot of ground to cover. I am not trying to cram this into one or even two years. With the above and any qualifications my employer may require from me, it is possible that these goals could take me into 2022 or further. Also, I should point out that these aren't set in stone and may change as I progress through the list.
