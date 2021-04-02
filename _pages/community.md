@@ -24,7 +24,7 @@ If you'd like to present at one of our virtual user groups, please submit a sess
 <a href="https://sessionize.com/ldna" target="_blank"><img src="/images/community/sessionize-banner-small.png" alt="Sessionize.com — The smart way to manage Call for Papers, Speakers and Agenda for your conference." width="128" height="80"></a>
 </p>
 
-##### Next up at LDNA!
+#### Coming Up!
 
 ###### LDNA - April Event - Thursday 8th April at 8pm
 
@@ -32,7 +32,7 @@ Maik van der Gaag (Follow him on Twitter: [@maikvandergaag](https://twitter.com/
 
 <a href="https://www.meetup.com/Limerick-DotNet/events/276445887/" target="_blank"><img src="/images/community/LDNA_MaikvanderGaag_Bicep.png" alt="LDNA - April Virtual Event - 'Azure Infrastructure as Code via Azure Bicep'"></a>
 
-##### Past events at LDNA!
+#### Past events!
 
 ###### LDNA - March Event
 
