@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving my blog and getting to grips with Bicep!
+title: Moving my blog (Part 1) and getting to grips with Bicep!
 categories: [Infrastructure as Code, ARM, Bicep, Azure, Microsoft, DevOps, Blog]
 excerpt: "Inspired by a recent presentation by Chris Reddington at the Limerick DotNet Azure User Group, I have decided to move this blog from GitHub Pages and Jekyll to an Azure Storage Account and Hugo based deployment. I'll be making use of GitHub Actions to implement a CI/CD workflow for my blog."
 ---
