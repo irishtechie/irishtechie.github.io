@@ -54,16 +54,31 @@ There are other static site generators available, such as Jekyll (which I am mov
 
 I chose Hugo for a number of reasons. Firstly, it is open-source and I enjoy using open-source technology where possible. Developing your product in the open is a great way to gain trust and build a community. It's also great for building secure and stable applications as your project can benefit from a global community of contributors. Secondly, Hugo is used by a number of other community members with great success. Checkout the [CloudFamily](https://cloudfamily.info/){:target="_blank"} or the [CloudwithChris](https://www.cloudwithchris.com/){:target="_blank"} websites as two examples.
 
-### The ask and the Why?
+### The Ask
 
-Talk about decsions made and why.
+As I work in the Azure space, I wanted to move my blog platform to Azure as well. As I mentioned above, I also wanted to adopt a CI/CD workflow.
 
+While using GitHub Pages is free, moving the site to Azure Storage and Azure CDN will incur a small cost. Given the current size of the site, the costs for both of these resources will be very small. If you know the size of your blog or other static website you can use the [Azure Pricing Calculator](https://azure.microsoft.com/en-gb/pricing/calculator/){:target="_blank"} to generate an estimate.
+
+'The ask' is to build an Azure-based blog platform using Infrastructure as Code and to be able to make changes or updates to the site, it's underlying infrastructure, and/or it's content using a workflow or pipeline. Part of the workflow should involve deploying site or content changes to a staging website for review before approving them for deployment to production.
 
 ### The infrastructure
 
+In terms of required resources, this is quite a simple deployment. As you can see from the diagram below, there are just 3 major components to the Azure infrastructure to run the site.
 
-### The Workflow
+* Production Storage Account - Will contain approved, published content.
+* Staging Storage Account - Will contain test content and work in progress.
+* Azure CDN - Handles connections from the Public internet and delivers static content based on URL used.
 
-Flow Diagram for workflow with explanations
+![irishtechie.cloud architecture](/images/blogs/blogmovept1/irishtechie.cloud-architecture.png)
+
+### Deployment
+
+In this section, I will step you through the inital deployment using Bicep, where possible. For the initial deployment, I deployed the Bicep files via Azure CLI. In Part 2, I will integrate these deployment files into a GitHub Actions workflow so that any changes to the underlying infrastructure are automatically deployed.
+
+```powershell
+az storage blob service-properties update --account-name sairishtechieblogprod --static-website --404-document 404.html --index-document index.html
+```
+
 
 Thanks for reading!
