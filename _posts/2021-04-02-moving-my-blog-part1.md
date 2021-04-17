@@ -17,7 +17,7 @@ In this article (Part 1), I'll be focusing on how I am using Azure Storage and A
 >
 > -- <cite>Bicep Github Page.</cite>
 
-I've been getting to know Bicep for a few weeks now and, so far, it does seem a lot simpler that ARM Templates. In my opinon, ARM templates can be quite intimidating to work with. To date, Bicep is certainly easier to deal with and is also much shorter in terms of lines of code. For example, a simple Virtual Network with two Subnets deployment has about 60 lines of code as an ARM Template whereas the Bicep version has about 30-35 lines of code.
+I've been getting to know Bicep for a few weeks now and, so far, it does seem a lot simpler than ARM Templates. In my opinon, ARM templates can be quite intimidating to work with. To date, Bicep is certainly easier to deal with and is also much shorter in terms of lines of code. For example, a simple Virtual Network with two Subnets deployment has about 60 lines of code as an ARM Template whereas the Bicep version has about 30-35 lines of code.
 
 I encourage you to check it out for yourself. You can use the links below to get up to speed.
 
@@ -62,7 +62,7 @@ While using GitHub Pages is free, moving the site to Azure Storage and Azure CDN
 
 'The ask' is to build an Azure-based blog platform using Infrastructure as Code and to be able to make changes or updates to the site, it's underlying infrastructure, and/or it's content using a workflow or pipeline. Part of the workflow should involve deploying site or content changes to a staging website for review before approving them for deployment to production.
 
-### The infrastructure
+### The Infrastructure
 
 In terms of required resources, this is quite a simple deployment. As you can see from the diagram below, there are just 3 major components to the Azure infrastructure to run the site.
 
@@ -76,9 +76,157 @@ In terms of required resources, this is quite a simple deployment. As you can se
 
 In this section, I will step you through the inital deployment using Bicep, where possible. For the initial deployment, I deployed the Bicep files via Azure CLI. In Part 2, I will integrate these deployment files into a GitHub Actions workflow so that any changes to the underlying infrastructure are automatically deployed.
 
+To deploy the above resources, I am using 5x Bicep files (1x main file, 4x modules) and 2x Azure CLI commands.
+
+If you're interested, you can see how I've organised my repository below.
+
+![irishtechie.cloud repo structure](/images/blogs/blogmovept1/irishtechie.cloudrepostructure.PNG)
+
+I won't go in to detail on each bicep module as that would make this an even longer blog post than it already is! :) Instead, I will cover the deployment of the production storage account. If you want to see the Bicep code for the other modules, you can go to my GitHub repository [here](https://github.com/irishtechie/irishtechie.cloud){:target="_blank"}.
+
+Let's look at a few sections of main.bicep.
+
+At the top of the file I set the target scope to 'subscription' as I will be creating a resource group to deploy the rest of the resources in to.
+
 ```powershell
+// This file operates at subscription level.
+targetScope = 'subscription'
+```
+
+Next up, I set some parameters and variables that will be used later in this file and the module files. Calling out the variable **'storageAccountHostName'** in particular, you can see that I am not just assigning a value to this variable. Instead, I am referencing the output from the module that depoys the storage account to create this variable.
+
+```powershell
+// Set the parameters and default values, if required.
+param environment string = 'blog'
+param storageenv1 string = 'prod'
+param storageenv2 string = 'stage'
+param location string = 'northeurope'
+param resourcePrefix string = 'irishtechie'
+param skuName string = 'Standard_RAGRS'
+
+var storageAccountHostName  = storageAcc.outputs.staticWebsiteHostName
+```
+
+Once we have the parameters and variables set, we need to create a resource group for our storage account to reside in. To create the resource group name, I am referencing some of the parameters defined above. One thing to note is that the **'NewRG'** value below is just a symbolic name or resource identifier. We will use this later to tell Azure where to deploy the storage account.
+
+```powershell
+// deploy a resource group to the subscription scope
+resource NewRG 'Microsoft.Resources/resourceGroups@2020-06-01' = {
+  name: 'rg-${resourcePrefix}-${environment}'
+  location: location
+}
+```
+
+Now that the parameters have been defined and the resouce group created, we can now deploy the storage account. I am using a modular approach the deploying resources using Bicep. In other words, instead of using one file to deploy everything, we are calling separate files for each resource or type of resource we need to deploy. Notice below that we are using the 'module' keyword instead of 'resource'. We give the name of the module file, **'storage.bicep'** in this case, and then pass in the parameters it expects. An important thing to note here is the scope section. You can see that we are using **'resourceGroup(NewRG.name)** here. This references the resource identifier we used for the resource group deployment earlier and pulls the name object from it.
+
+Referencing other modules or resources in this way allows the smarts within Bicep to automatically create dependencies so that we can ensure that deployments take place in a logical order. For the most part, we don't have to define dependencies manually while using Bicep. Of course, there will be exceptions to this rule.
+
+```powershell
+// Call a separate bicep file to deploy storage account.
+module storageAcc 'storage.bicep' = {
+  name: 'storageAcc'
+  // Change deployment context to RG
+  scope: resourceGroup(NewRG.name)
+  params: {
+    resourcePrefix: resourcePrefix
+    environment: environment
+    storageenv: storageenv1
+    skuName: skuName
+  }
+}
+```
+
+That finishes our look at **'main.bicep'**. Next up we look at our storage module, **'storage.bicep'**.
+
+We start off by defining the parameters in the same way we did with the main file. The only difference here is that the parameter values are defined by the **'main.bicep'** file and passed in from there.
+
+You can also see that the **'skuName'** parameter has a set of allowed values. If anything other than these values are passed in, you will get an error during deployment.
+
+```powershell
+// Set the parameters and default values, if required.
+param environment string
+param storageenv string
+param resourcePrefix string
+param location string = resourceGroup().location
+
+@allowed([
+  'Standard_LRS'
+  'Standard_GRS'
+  'Standard_ZRS'
+  'Standard_RAGRS'
+])
+param skuName string
+```
+
+I have also defined a variable within the storage module to create the storage account name by concatenating several parameters.
+
+```powershell
+// Define variables
+var stgname = 'sa${resourcePrefix}${environment}${storageenv}'
+```
+
+The penultimate section handles the actual creation of the storage account. You can see the various parameter names in place to configure the storage account name, sku, and other configurable items.
+
+```powershell
+// Deploy Storage Account
+resource storage 'Microsoft.Storage/storageAccounts@2019-06-01' = {
+  name: stgname
+  location: location
+  kind:'StorageV2'
+  sku:{
+    name: skuName
+  }
+  properties: {
+    minimumTlsVersion:'TLS1_2'
+    accessTier: 'Hot'
+    allowBlobPublicAccess: false
+    networkAcls:{
+      bypass:'AzureServices'
+      defaultAction:'Allow'
+      virtualNetworkRules:[]
+    }
+    supportsHttpsTrafficOnly: true
+  }
+}
+```
+
+The final section of **'storage.bicep'** handles the output of the static website hostname which will used when creating the CDN Endpoint later in the deployment (not detailed here).
+
+```powershell
+// Output the Static Website Hostname from Storage Account deployment.
+output staticWebsiteHostName string = replace(replace(storage.properties.primaryEndpoints.web, 'https://', ''), '/', '')
+```
+
+Bicep is an abstraction from ARM and ARM Templates. We use the same Azure CLI or PowerShell commands to deploy the template files as we would with ARM Templates. Below, you can see the Azure CLI command to deploy **'main.bicep'**. As we are deploying at the subscription level, we need to specify the location.
+
+```bash
+az deployment sub create --location northeurope --template-file ./main.bicep
+```
+
+You can make use of the **'WhatIf'** functionality by adding *--confirm* to the end of the command (see below). The result will be a list of resources and details on what changes will or will not be made by the template file.
+
+**Please Note:** The default deployment mode for Bicep and ARM is *incremental*. This means that you can run and re-run this deployment repeatedly without destroying or recreating the resources. It will **ONLY** make changes to the deployed resources **IF** you change the code within the template file.
+
+```bash
+az deployment sub create --location northeurope --template-file ./main.bicep --confirm
+```
+
+The ability to configure a storage account to facilitate a static website is not exposed for configuration within ARM and Bicep templates. As a result, we need to use Azure CLI (or PowerShell) to enable this setting. You can see the required commands below.
+
+```bash
 az storage blob service-properties update --account-name sairishtechieblogprod --static-website --404-document 404.html --index-document index.html
 ```
 
+Please forgive the syntax higlighting being a bit hit and miss. My syntax highlighter hasn't caught up with Bicep yet. I may replace the codeblocks with images if the lack of correct syntax highlighting is an issue. Let me know what you think.
 
-Thanks for reading!
+**Please Note:** These bicep files are also a work in progress. I expect to improve the code here moving forward.
+
+### What's Next?
+
+We have now deployed the underlying Azure infrastructure that will support the Irish Techie Blog. I haven't mentioned yet that I recently added a new domain for the Irish Techie blog. The new primary domain for this blog will be [www.irishtechie.cloud](https://www.irishtechie.cloud){:target="_blank"}. You can use this link to track my progress in migrating to the new platform. The current and original site can still be accessed at [www.irishtechie.com](https://www.irishtechie.com){:target="_blank"}. The two domains will eventually direct to the new site as the migration completes.
+
+In Part 2 of this series, I will talk about getting started with a local Hugo installation that I will use for testing out themes and designs for the new site. I will also be walking you through the setup and configuration of GitHub Actions to handle the infrastructure deployment and maintenance, as well as using it to publish new content to the blog.
+
+### Thank You!
+
+This is quite a lenghty article. If you are still with me after all of this information, thank you so much for reading!
