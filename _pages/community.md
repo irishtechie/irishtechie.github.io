@@ -38,7 +38,7 @@ It's sure to be an interesting discussion. See you there!
 
 ###### Friday 23rd April: "In conversation with... JonnyChipz and Thomas Thornton!"
 
-A few weeks back Thomas Thornton ([@tamstar1234](https://twitter.com/tamstar1234){:target="_blank"}) recorded a session of "In Conversation with... JonnyChipz" with John Lunn ([@jonnychipz](https://twitter.com/jonnychipz){:target="_blank"}). It will be airing on Friday 23rd April at 6:30pm on the [Azureish Live Twitch](https://www.twitch.tv/azureishlive){:target="_blank"} page and 7:30pm on YouTube.
+A few weeks back Thomas Thornton ([@tamstar1234](https://twitter.com/tamstar1234){:target="_blank"}) and I recorded a session of "In Conversation with... JonnyChipz" with John Lunn ([@jonnychipz](https://twitter.com/jonnychipz){:target="_blank"}). It will be airing on Friday 23rd April at 6:30pm on the [Azureish Live Twitch](https://www.twitch.tv/azureishlive){:target="_blank"} page and 7:30pm on YouTube.
 
 We cover a wide range of topics including DevOps, Infrastructure as Code, Learning, and our love of community. Feel free to check it out.
 
