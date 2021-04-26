@@ -36,11 +36,53 @@ It's sure to be an interesting discussion. See you there!
 
 ---
 
+###### Saturday 8th May: LDNA - May Event
+
+Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) will be joining us to present his "VS 'Army Knife' Code" talk. I use VSCode daily so, I'm looking forward to this talk. Sign up and join us by clicking the image below.
+
+<a href="https://www.meetup.com/Limerick-DotNet/events/277039004/" target="_blank"><img src="/images/community/LDNA_RicardoMeloJoia_VSCode.png" alt="LDNA - May Virtual Event - 'VS 'Army Knife' Code'"></a>
+
+---
+
+###### Thursday 3rd June: Live Call with Chris Reddington
+
+On Thursday 3rd June, I'll be joining Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for another live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
+
+This time we'll be doing an in-depth session on the GitHub Actiosns workflows that automate a lot of the publishing process Chris uses with his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}).
+
+It's sure to be another interesting discussion! If you want to know more about GitHub Actions and how it can help your blogging, then check out the session! See you there!
+
+The stream will be available below when we go live.
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fxhnlNlLqcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+---
+
+#### Past events!
+
+###### Thursday 22nd April: Live Call with Chris Reddington
+
+On Thursday 22nd April, I joined Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for a live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
+
+We went into detail on the decisions and reasoning behind the choice to run his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}) in Azure. We also touched on the automated GitHub Actions workflows that Chris uses to publish new content to his site.
+
+It was a great discussion and we will be doing another session on June 3rd which will be focusing on the GitHub Actions workflows in detail.
+
+You can check out the recording on YouTube:
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/okaSk5QxeJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+---
+
 ###### Friday 23rd April: "In conversation with... JonnyChipz and Thomas Thornton!"
 
-A few weeks back Thomas Thornton ([@tamstar1234](https://twitter.com/tamstar1234){:target="_blank"}) recorded a session of "In Conversation with... JonnyChipz" with John Lunn ([@jonnychipz](https://twitter.com/jonnychipz){:target="_blank"}). It will be airing on Friday 23rd April at 6:30pm on the [Azureish Live Twitch](https://www.twitch.tv/azureishlive){:target="_blank"} page and 7:30pm on YouTube.
+Back in early April (2021), Thomas Thornton ([@tamstar1234](https://twitter.com/tamstar1234){:target="_blank"}) recorded a session of "In Conversation with... JonnyChipz" with John Lunn ([@jonnychipz](https://twitter.com/jonnychipz){:target="_blank"}). It first aired on Friday 23rd April on the [Azureish Live Twitch](https://www.twitch.tv/azureishlive){:target="_blank"} page and on YouTube.
 
-We cover a wide range of topics including DevOps, Infrastructure as Code, Learning, and our love of community. Feel free to check it out.
+We covered a wide range of topics including DevOps, Infrastructure as Code, Learning, and our love of community. Feel free to check it out.
 
 You can see the YouTube video below. Thanks for having us John!!
 
@@ -49,14 +91,6 @@ You can see the YouTube video below. Thanks for having us John!!
 </p>
 
 ---
-
-###### Saturday 8th May: LDNA - May Event
-
-Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) will be joining us to present his "VS 'Army Knife' Code" talk. I use VSCode daily so, I'm looking forward to this talk. Sign up and join us by clicking the image below.
-
-<a href="https://www.meetup.com/Limerick-DotNet/events/277039004/" target="_blank"><img src="/images/community/LDNA_RicardoMeloJoia_VSCode.png" alt="LDNA - May Virtual Event - 'VS 'Army Knife' Code'"></a>
-
-#### Past events!
 
 ###### LDNA - April Event
 
@@ -81,3 +115,5 @@ Bojan Magusic joined us in February to present a session on Azure Sentinel. You 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oROBgvUWUaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+
+---
