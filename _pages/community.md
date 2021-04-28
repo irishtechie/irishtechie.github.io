@@ -50,7 +50,7 @@ The stream will be available below when we go live.
 
 ---
 
-###### Saturday 10th June: LDNA - June Event
+###### Thursday 10th June: LDNA - June Event
 
 Shannon Kuehn (Follow her on Twitter: [@shankuehn](https://twitter.com/shankuehn){:target="_blank"}) will be joining us to present her "Azure VMware Services Overview" talk. Many in the Enterprise IT and MSP space will be familiar with VMware. Come and hear how you can extend, or migrate, your existing VMware workloads to Azure without the need to re-architect your applications or change your tooling.
 
