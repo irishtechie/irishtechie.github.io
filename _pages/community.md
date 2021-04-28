@@ -26,16 +26,6 @@ If you'd like to present at one of our virtual user groups, please submit a sess
 
 #### Coming Up!
 
-###### Thursday 22nd April: Live Call with Chris Reddington
-
-On Thursday 22nd April, I'll be joining Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for a live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
-
-We'll go into some detail on the decisions and reasoning behind the choice to run his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}) in Azure. We'll also discuss the automated GitHub Actions workflows that Chris uses to publish new content to his site.
-
-It's sure to be an interesting discussion. See you there!
-
----
-
 ###### Saturday 8th May: LDNA - May Event
 
 Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) will be joining us to present his "VS 'Army Knife' Code" talk. I use VSCode daily so, I'm looking forward to this talk. Sign up and join us by clicking the image below.
@@ -57,6 +47,16 @@ The stream will be available below when we go live.
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fxhnlNlLqcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+
+---
+
+###### Saturday 10th June: LDNA - June Event
+
+Shannon Kuehn (Follow her on Twitter: [@shankuehn](https://twitter.com/shankuehn){:target="_blank"}) will be joining us to present her "Azure VMware Services Overview" talk. Many in the Enterprise IT and MSP space will be familiar with VMware. Come and hear how you can extend, or migrate, your existing VMware workloads to Azure without the need to re-architect your applications or change your tooling.
+
+Sign up and join us by clicking the image below.
+
+<a href="https://www.meetup.com/Limerick-DotNet/events/277827183/" target="_blank"><img src="/images/community/LDNA_ShannonKuehn_AVS.png" alt="LDNA - June Virtual Event - Azure VMware Services Overview"></a>
 
 ---
 
