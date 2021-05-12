@@ -26,14 +26,6 @@ If you'd like to present at one of our virtual user groups, please submit a sess
 
 #### Coming Up!
 
-###### Saturday 8th May: LDNA - May Event
-
-Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) will be joining us to present his "VS 'Army Knife' Code" talk. I use VSCode daily so, I'm looking forward to this talk. Sign up and join us by clicking the image below.
-
-<a href="https://www.meetup.com/Limerick-DotNet/events/277039004/" target="_blank"><img src="/images/community/LDNA_RicardoMeloJoia_VSCode.png" alt="LDNA - May Virtual Event - 'VS 'Army Knife' Code'"></a>
-
----
-
 ###### Thursday 3rd June: Live Call with Chris Reddington
 
 On Thursday 3rd June, I'll be joining Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for another live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
@@ -62,6 +54,15 @@ Sign up and join us by clicking the image below.
 
 #### Past events!
 
+###### LDNA - May Event
+
+Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) joined us to present his awesome "VS 'Army Knife' Code" talk. As a daily user of VSCode I found this a really useful session. You can check out the recording below.
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xla4yV99lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+---
 ###### Thursday 22nd April: Live Call with Chris Reddington
 
 On Thursday 22nd April, I joined Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for a live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
@@ -94,7 +95,11 @@ You can see the YouTube video below. Thanks for having us John!!
 
 ###### LDNA - April Event
 
-Maik van der Gaag (Follow him on Twitter: [@maikvandergaag](https://twitter.com/maikvandergaag){:target="_blank"}) joined us to present his "Azure Infrastructure as Code via Azure Bicep" talk. This was a great session, I'd recommend you check out the recording when it's posted. Check back here later this week for the recording.
+Maik van der Gaag (Follow him on Twitter: [@maikvandergaag](https://twitter.com/maikvandergaag){:target="_blank"}) joined us to present his "Azure Infrastructure as Code via Azure Bicep" talk. This was a great session, I'd recommend you check out the recording when it's posted. Check out the recording below:
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEhjXChsX-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 ---
 
