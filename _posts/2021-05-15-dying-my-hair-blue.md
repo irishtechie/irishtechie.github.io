@@ -2,7 +2,7 @@
 layout: post
 title: Hair goes funny to raise some money!
 categories: [Azure, Microsoft, Funny, Charity, STEM, Mental Health, Child Poverty, CloudFamily]
-excerpt: "It's taken me a while to get to Day 1 on this journey. For Day 1/100 I thought that I would create a 'Terminology Primer'. The aim of this is to help people who are just beginning their Kubernetes journey to get familiar with the various terms that they will encounter."
+excerpt: "I'm dying my hair BLUE!!! This isn't my normal Azure-related content. For a start, it's written by me and my wife. If you follow me on Twitter, you'll know why we're writing this post!"
 ---
 
 ### I'm dying my hair BLUE!!!
