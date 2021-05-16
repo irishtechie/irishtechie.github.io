@@ -13,7 +13,7 @@ So it's actually happening, there's no backing out now!! On Friday, June 25th I'
 
 ### How did we get here?
 
-So, anyone that knows me will know that my wife is pretty funny and ensures that I never take myself too seriously!! On May 9th, my phone started to go a bit nuts with Twitter notifications. I had no idea what was going on until I opened Twitter and seen that my wife had tagged me in the following tweet (Click on the image to go to open the tweet on Twitter).
+So, anyone that knows me will know that my wife is pretty funny and ensures that I never take myself too seriously!! On May 9th, my phone started to go a bit nuts with Twitter notifications. I had no idea what was going on until I opened Twitter and saw that my wife had tagged me in the following tweet (Click on the image to go to open the tweet on Twitter).
 
 <p align="center">
 <a href="https://twitter.com/boooombex/status/1391488155728203779?s=20" target="_blank"><img src="/images/blogs/bluehair/blue-hair-orig-tweet.PNG" alt="Blue Hair Original Tweet"></a>
@@ -49,9 +49,16 @@ We've chosen 4 charities to support with this fundraising effort. They are as fo
 
 ### How is it going to work?
 
-Any funds raised will be equally distributed between the above 4 charities. In order to maintain
+We're going to use Just Giving to fundraise for these 4 awesome charities. Any funds raised will be equally distributed between them.
 
+In order to maintain transparency, my friend and fellow community member Richard Hooper ([@Pixel_Robots](https://twitter.com/Pixel_Robots){:target="_blank"}) has agreed to look after the distribution of whatever funds are raised.
+
+### How can you contribute?
+
+I would love it if the community could get behind this and help to raise some money for these worthy charities. I know that everyone's situation is different so if you can't contribute, there is absolutely no pressure.
+
+If you feel you are able to contribute, you can do so at this [link](https://www.justgiving.com/crowdfunding/hair-goes-funny-to-raise-some-money?utm_term=n6bkb4RN5){:target="_blank"}.
 
 ---
 
-Thanks for reading. I hope you have found it useful.
+Thanks alot for taking the time to read this article. Please feel free to reach out if you have any questions.
