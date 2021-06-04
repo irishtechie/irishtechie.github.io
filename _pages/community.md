@@ -30,7 +30,7 @@ If you'd like to present at one of our virtual user groups, please submit a sess
 
 On Monday 7th June, I'll be joining Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for another live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
 
-This time we'll be doing an in-depth session on the GitHub Actiosns workflows that automate a lot of the publishing process Chris uses with his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}).
+This time we'll be doing an in-depth session on the GitHub Actions workflows that automate a lot of the publishing process Chris uses with his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}).
 
 It's sure to be another interesting discussion! If you want to know more about GitHub Actions and how it can help your blogging, then check out the session! See you there!
 
