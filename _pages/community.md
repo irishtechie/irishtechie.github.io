@@ -26,15 +26,31 @@ If you'd like to present at one of our virtual user groups, please submit a sess
 
 #### Coming Up!
 
+###### Thursday 29th July @ 8pm (UTC+1) - LDNA - July Event
+
+Aidan Finn ([@joe_elway](https://twitter.com/joe_elway){:target="_blank"}) will be joining us for the LDNA July Meetup to present his "Azure Firewall in the Real World" session.
+
+Aidan is a Principal Consultant with Innofactor Norway working on Azure infrastructure projects and managed services. He is also the MD and trainer at Cloud Mechanix [http://www.cloudmechanix.com](http://www.cloudmechanix.com){:target="_blank"}, a company delivering custom-written Azure training in Europe.
+
+In this session, he’ll explorer the features of Azure Firewall, how to use Azure Firewall in the real world, and how to make the most of this platform-based, DevOps, focused security system - yes, there will be some ARM templates!
+
+Aidan writes about Azure and on-premises server technologies on his own site, [http://www.aidanfinn.com](http://www.aidanfinn.com){:target="_blank"} and for [http://www.petri.com](http://www.petri.com){:target="_blank"}.
+
+Looking forward to this one. Sign up by clicking the image below.
+
+<a href="https://www.meetup.com/Limerick-DotNet/events/279271750/" target="_blank"><img src="/images/community/LDNA_AidanFinn_AzFirewall.jpg" alt="LDNA - July Virtual Event - Azure Firewall in the Real World"></a>
+
+---
+
+#### Past events!
+
 ###### Monday 7th June: Live Call with Chris Reddington
 
-On Monday 7th June, I'll be joining Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for another live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
+On Monday 7th June, I joined Chris Reddington ([@reddobowen](https://twitter.com/reddobowen){:target="_blank"}) for another live call to discuss using Azure Storage, Azure CDN, GitHub Actions, and Hugo to deliver an awesome blog platform.
 
-This time we'll be doing an in-depth session on the GitHub Actions workflows that automate a lot of the publishing process Chris uses with his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}).
+This time we did an in-depth session on the GitHub Actions workflows that automate a lot of the publishing process Chris uses with his site ([www.cloudwithchris.com](https://www.cloudwithchris.com/){:target="_blank"}).
 
-It's sure to be another interesting discussion! If you want to know more about GitHub Actions and how it can help your blogging, then check out the session! See you there!
-
-The stream will be available below when we go live.
+It was a really interesting discussion! If you want to know more about GitHub Actions and how it can help your blogging, then check out the recording below.
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fxhnlNlLqcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -42,18 +58,17 @@ The stream will be available below when we go live.
 
 ---
 
-###### Thursday 10th June: LDNA - June Event
+###### LDNA - June Event
 
-Shannon Kuehn (Follow her on Twitter: [@shankuehn](https://twitter.com/shankuehn){:target="_blank"}) will be joining us to present her "Azure VMware Services Overview" talk. Many in the Enterprise IT and MSP space will be familiar with VMware. Come and hear how you can extend, or migrate, your existing VMware workloads to Azure without the need to re-architect your applications or change your tooling.
+Shannon Kuehn (Follow her on Twitter: [@shankuehn](https://twitter.com/shankuehn){:target="_blank"}) joined us to present her "Azure VMware Services Overview" talk. Many in the Enterprise IT and MSP space will be familiar with VMware. Check out the video below to hear how you can extend, or migrate, your existing VMware workloads to Azure without the need to re-architect your applications or change your tooling.
 
-Sign up and join us by clicking the image below.
+Check out the recording below.
 
-<a href="https://www.meetup.com/Limerick-DotNet/events/277827183/" target="_blank"><img src="/images/community/LDNA_ShannonKuehn_AVS.png" alt="LDNA - June Virtual Event - Azure VMware Services Overview"></a>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G8LZTRKt-QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 ---
-
-#### Past events!
-
 ###### LDNA - May Event
 
 Ricardo Melo Jóia (Follow him on Twitter: [@rmjoia](https://twitter.com/rmjoia){:target="_blank"}) joined us to present his awesome "VS 'Army Knife' Code" talk. As a daily user of VSCode I found this a really useful session. You can check out the recording below.

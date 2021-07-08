@@ -10,17 +10,17 @@ My name is Karl, a husband and father of 4 wonderful children living in Northern
 
 ## What I do
 
-I am an Implementation Specialist at Action Point Technology Group specialising in the Azure and Microsoft 365 technology areas. My role involves designing and implementing Microsoft-based solutions for businesses of all shapes and sizes.
+I am an Azure Consultant at [Intercept B.V.](https://intercept.cloud/en/){:target="_blank"} specialising in the Azure technology area. My role involves designing and implementing Azure-based solutions for businesses of all shapes and sizes.
 
-I enjoy the divergent nature of my role as it means that I am working with many different technology areas from Azure Services and Infrastructure to Microsoft 365 and Modern Workplace technologies.
+I enjoy my role as an Azure Consultant as every day is different. Intercept primarily work with ISVs (Independent Software Vendors) and I get to work with these clients to help them modernise their applications and grow using the power of the Azure platform.
 
 ## Why I Blog
 
 I've been talking about starting a blog for years but, as my wife will attest, I tend to procrastinate. The primary purpose behind this blog is to share my experiences as an IT Professional, both technical and not.
 
-I believe that we, as human beings, are stronger when we work together. Community is important. I look forward to contributing to the IT Community by sharing these insights.
+I believe that we, as human beings, are stronger when we work together. Community is important. I look forward to contributing to the IT Community by sharing with you all.
 
-I'll be writing about what I learn as I work with Azure and M365. You can expect blogs on different Azure and M365 services as well as articles that explore the various Infrastructure as Code (IaC) options available to us when deploying resources to Azure.
+I'll be writing about what I learn as I work with Azure and other Microsoft technologies. You can expect blogs on different Azure and M365 services as well as articles that explore the various Infrastructure as Code (IaC) options available to us when deploying resources to Azure.
 
 ## Certificates
 
